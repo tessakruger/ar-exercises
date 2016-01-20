@@ -104,3 +104,4 @@ Let's tell Active Record that these two tables are in fact related via the `stor
 2. Much like with the contact app (except not in a loop), Ask the user for a store name (store it in a variable)
 3. Attempt to create a store with the inputted name but leave out the other fields (annual_revenue, mens_apparel, and womens_apparel)
 4. Display the error messages provided back from ActiveRecord to the user (one on each line) after you attempt to save/create the record
+# ar-exercises
