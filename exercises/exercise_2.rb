@@ -8,3 +8,5 @@ puts "----------"
 @store2 = Store.find_by(id:2)
 @store1.name = 'Victoria'
 @store1.save
+puts "Updated store name to: #{@store1.name}"
+puts "----------"
