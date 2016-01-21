@@ -62,14 +62,14 @@ def create_store_or_employee(answer)
     puts "\n"
     puts "New employee #{new_employee.first_name} #{new_employee.last_name} has been added."
   elsif
-  	answer == "quit" then
-  	abort
+    answer == "quit" then
+    abort
   end
 end
 
 prompt_user = false
 while prompt_user == false do
-	puts "\n"
+    puts "\n"
     puts "Enter <store> or <employee>... or <quit> to exit"
     answer = gets.chomp
     create_store_or_employee(answer)
